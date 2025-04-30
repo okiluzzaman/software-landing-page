@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.container {
+  background-color: #1f2937;
+  padding: 20px 120px;
+}
+
+.navbar {
+  display: flex;
+  gap: 30px;
+  font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.site-logo {
+  margin-right: auto;
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+nav ul li,
+a {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.hero-section {
+  margin-top: 120px;
+  display: flex;
+  gap: 80px;
+  padding-bottom: 120px;
+  align-items: center;
+}
+
+.hero-title {
+  font-size: 48px;
+  color: #f9faf8;
+  font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 900;
+  margin-bottom: 15px;
+}
+
+.hero-secondary-text {
+  font-size: 18px;
+  color: #e5e7eb;
+  margin-bottom: 15px;
+}
+
+#signup {
+  font-size: 24px;
+  font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 600;
+  padding: 10px 38px;
+  color: #f9faf8;
+  background-color: #3882f6;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.right img {
+  width: 800px;
+  height: auto;
+}
+
+.info-title {
+  text-align: center;
+  font-size: 36px;
+  color: #1f2937;
+  font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 900;
+  padding: 50px 0;
+}
+
+.info {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  margin-bottom: 140px;
+}
+
+.info img {
+  width: 300px;
+  height: 300px;
+  border-radius: 25px;
+}
+
+.info p {
+  text-align: center;
+  font-size: 18px;
+  font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 400;
+  color: #1f2937;
+}
+
+.testimonial {
+  padding: 140px 0px;
+  background-color: #e5e7eb;
+  margin-bottom: 120px;
+}
+
+.testimonial p {
+  margin: 0 auto;
+  width: 60vw;
+  font-size: 36px;
+  font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  text-align: left;
+}
+
+.testimonial h3 {
+  width: 60vw;
+  margin-top: 20px;
+  font-size: 24px;
+  font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 600;
+  margin-left: 1250px;
+}
+
+.cta {
+  display: flex;
+  width: 60vw;
+  background-color: #3882f6;
+  padding: 60px 20px;
+  border: none;
+  border-radius: 8px;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.cta h4{
+  font-size: 24px;
+  font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 600;
+  color: #f9faf8;
+}
+
+.cta p{
+  font-size: 16px;
+  font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 400;
+  color: #f9faf8b0;
+}
+
+.cta #signup2 {
+  font-size: 24px;
+  font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 600;
+  padding: 8px 38px;
+  color: #f9faf8;
+  border: 2px solid #f9faf8;
+  border-radius: 10px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+footer{
+  margin-top: 120px;
+  padding: 40px 0px;
+  background-color: #1f2937;
+  text-align: center;
+  font-size: 18px;
+  font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 400;
+  color: #f9faf8;
+}
