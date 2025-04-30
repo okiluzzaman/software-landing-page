@@ -33,7 +33,7 @@ a {
 .hero-section {
   margin-top: 120px;
   display: flex;
-  gap: 80px;
+  gap: 160px;
   padding-bottom: 120px;
   align-items: center;
 }
@@ -85,27 +85,43 @@ a {
   margin-bottom: 140px;
 }
 
-.info img {
+.box{
   width: 300px;
-  height: 300px;
-  border-radius: 25px;
+  justify-items: center;
+}
+
+.img-box{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #e5e7eb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.info img {
+  width: 40px;
+  height: 40px;
 }
 
 .info p {
   text-align: center;
+  line-height: 25px;
   font-size: 18px;
   font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
   font-weight: 400;
   color: #1f2937;
+  margin-top: 20px;
 }
 
-.testimonial {
+.about-us {
   padding: 140px 0px;
   background-color: #e5e7eb;
   margin-bottom: 120px;
 }
 
-.testimonial p {
+.about-us p {
   margin: 0 auto;
   width: 60vw;
   font-size: 36px;
@@ -115,8 +131,7 @@ a {
   text-align: left;
 }
 
-.testimonial h3 {
-  width: 60vw;
+.about-us h3 {
   margin-top: 20px;
   font-size: 24px;
   font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
