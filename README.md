@@ -1,1 +1,1 @@
-This is a landing page I created to practice from The Odin Project exercises.
+This is a landing page for an individual software.
